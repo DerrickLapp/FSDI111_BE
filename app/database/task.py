@@ -61,7 +61,7 @@ def update_task_by_id(task_data, task_id):
                 name=?,
                 summary=?,
                 description=?,
-                is_online=?
+                is_done=?
         WHERE id=?
     """
     conn = get_db()
